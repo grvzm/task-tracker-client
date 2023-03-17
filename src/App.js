@@ -46,7 +46,6 @@ class App extends React.Component {
     }
     updateInput(input) {
         this.setState({newItem:input});
-
     }
     render() {
         return(
@@ -70,7 +69,7 @@ class App extends React.Component {
                             <li>
                                 <input type="checkbox" name="" id=""/>
                                 Meditate
-                                <button className="btn">Delete</button>
+                                <button className="btn">DELETE</button>
                             </li>
                         </ul>
                     </div>
