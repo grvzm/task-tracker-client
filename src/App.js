@@ -1,21 +1,9 @@
 import React from "react";
 import logo from "./omnexis.png";
 import "./App.css"
-// Functional Component
-// function App() {
-    // return (
-        // <div className="App">
-            {/* <header> */}
-                {/* <h1>Functional React Component</h1> */}
-                {/* <p>This is an example of functional React Componet</p> */}
-                {/* <img src={logo} width="200" height="200" className="App-logo"></img> */}
-            {/* </header> */}
-        {/* </div> */}
-    // );
-// }
+
 // Class based Component
 class App extends React.Component {
-
     constructor(props){
         super(props);
         this.state = {
@@ -50,8 +38,9 @@ class App extends React.Component {
     render() {
         return(
             <div>
-                <img src={logo} width="200" height="200" className="logo"></img>
+                <img alt="logo" src={logo} width="200" height="200" className="logo"></img>
                 <h1 className="app-title">Omnexis Tasks</h1>
+                
                 <div className="container">
                     Add an Item....
                     <br/>
